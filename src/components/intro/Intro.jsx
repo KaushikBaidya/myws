@@ -9,7 +9,9 @@ export const Intro = () => {
         <div className="intro">Hello! I'm Kaushik Baidya</div>
         <div className="title">
           I am a{' '}
-          <span style={{ color: 'tomato', fontWeight: '500' }}>
+          <span
+            style={{ color: 'tomato', fontWeight: '500', fontSize: '4rem' }}
+          >
             WEB DEVELOPER
           </span>
         </div>

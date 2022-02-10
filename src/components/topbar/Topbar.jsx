@@ -22,17 +22,29 @@ export const Topbar = () => {
         </div>
         <ul className="social-icons">
           <li>
-            <a href="https://www.facebook.com/kaushik.baidya.161">
+            <a
+              href="https://www.facebook.com/kaushik.baidya.161"
+              target="_blank"
+              rel="noreferrer"
+            >
               <i class="fab fa-facebook-square"></i>
             </a>
           </li>
           <li>
-            <a href="https://github.com/KaushikBaidya">
+            <a
+              href="https://github.com/KaushikBaidya"
+              target="_blank"
+              rel="noreferrer"
+            >
               <i class="fab fa-github-alt"></i>
             </a>
           </li>
           <li>
-            <a href="https://www.linkedin.com/in/kaushik-baidya-696247157/">
+            <a
+              href="https://www.linkedin.com/in/kaushik-baidya-696247157/"
+              target="_blank"
+              rel="noreferrer"
+            >
               <i class="fab fa-linkedin"></i>
             </a>
           </li>
