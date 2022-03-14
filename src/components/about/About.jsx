@@ -6,7 +6,6 @@ const About = () => {
   return (
     <div className="about">
       <div className="about-left">
-        {/* <div className="a-card bg"></div> */}
         <div className="a-card">
           <img src={me} alt="me" className="a-img" />
         </div>
@@ -18,10 +17,8 @@ const About = () => {
           readable content.
         </p>
         <p className="a-desc">
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-          eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
-          minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-          aliquip ex ea commodo consequat duis aute irure dolor in reprehende.
+          I am Skilled in HTML, CSS, JavaScript, ReactJS, Redux and working
+          knowledge of Figma for UI/UX.
         </p>
         <div className="icon-container">
           <i class="fab fa-html5"></i>

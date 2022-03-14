@@ -44,15 +44,15 @@ export const Contact = () => {
             </div>
             <div className="ct-info-item">
               <img src={Address} alt="" className="ct-icon" />
-              <span>Dhaka, Narayanganj, Bangladesh</span>
+              <span>Narayanganj, Dhaka, Bangladesh</span>
             </div>
           </div>
         </div>
         <div className="ct-right">
-          <p className="ct-desc">
+          {/* <p className="ct-desc">
             <b>Lorem ipsum dolor sit amet,</b> consectetur adipiscing elit, sed
             do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-          </p>
+          </p> */}
 
           <form ref={formRef} onSubmit={send}>
             <input type="text" name="user_name" placeholder="Name" />

@@ -21,6 +21,11 @@
 .title {
   font-size: 60px;
 }
+.mySpan {
+  color: tomato;
+  font-weight: 500;
+  font-size: 4rem;
+}
 .desc {
   font-size: 20px;
   text-align: justify;
@@ -64,4 +69,14 @@
 .btn:hover span:after {
   opacity: 1;
   right: 0;
+}
+
+@media screen and (max-width: 480px) {
+  .title {
+    width: 100%;
+    font-size: 30px;
+  }
+  .mySpan {
+    font-size: 2rem;
+  }
 }

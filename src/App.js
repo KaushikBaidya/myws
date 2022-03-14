@@ -1,5 +1,4 @@
-import * as React from "react";
-import { Routes, Route, Link } from "react-router-dom";
+import * as React from 'react'
 import About from './components/about/About'
 import { Contact } from './components/Contact/Contact'
 import { Intro } from './components/intro/Intro'

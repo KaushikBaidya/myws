@@ -69,7 +69,6 @@ i {
   .about {
     flex-direction: column;
     text-align: center;
-    margin-top: 50px;
   }
   .about-left {
     width: 100%;
@@ -81,7 +80,8 @@ i {
     display: none;
   }
   .about-right {
-    padding: 20px;
-    margin: 5px;
+  }
+  .a-sub {
+    display: none;
   }
 }

@@ -1,6 +1,7 @@
 import React from 'react'
 import SingleProject from '../singleProject/SingleProject'
 import './projects.css'
+import { products } from '../../data'
 
 const Projects = () => {
   return (
@@ -10,12 +11,9 @@ const Projects = () => {
       </div>
 
       <div className="il-list">
-        <SingleProject />
-        <SingleProject />
-        <SingleProject />
-        <SingleProject />
-        <SingleProject />
-        <SingleProject />
+        {products.map((item) => (
+          <SingleProject key={item.id} img={item.img} link={item.link} />
+        ))}
       </div>
     </div>
   )
